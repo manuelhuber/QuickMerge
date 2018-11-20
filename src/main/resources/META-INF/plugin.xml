@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>de.manuelhuber.quick-merge</id>
+    <name>QuickMerge</name>
+    <vendor email="dev@manuel-huber.de" url="http://www.manuel-huber.de">Manuel Huber</vendor>
+
+    <description><![CDATA[
+    A shortcut to pull the "origin/develop" branch into your current branch
+    ]]></description>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action class="de.manuelhuber.QuickMergeAction" id="QuickMergeAction"
+                text="Quick Merge"
+                description="Quick pull and merge the develop branch into current branch">
+            <add-to-group group-id="ToolbarRunGroup" anchor="last"/>
+        </action>
+    </actions>
+    <depends>Git4Idea</depends>
+</idea-plugin>
