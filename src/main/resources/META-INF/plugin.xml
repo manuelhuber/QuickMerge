@@ -3,9 +3,9 @@
     <name>QuickMerge</name>
     <vendor email="dev@manuel-huber.de" url="http://www.manuel-huber.de">Manuel Huber</vendor>
 
-    <description><![CDATA[
-    A shortcut to pull the "origin/develop" branch into your current branch
-    ]]></description>
+    <version>1.0</version>
+
+    <description>A shortcut to pull the "origin/develop" branch into your current branch</description>
 
     <extensions defaultExtensionNs="com.intellij">
     </extensions>
