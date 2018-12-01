@@ -4,6 +4,7 @@
     <vendor email="dev@manuel-huber.de" url="http://www.manuel-huber.de">Manuel Huber</vendor>
 
     <version>1.0</version>
+    <change-notes>Updated Metadata</change-notes>
 
     <description>A shortcut to pull the "origin/develop" branch into your current branch</description>
 
